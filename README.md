@@ -11,6 +11,10 @@ Duration: September 25th, 2024, to October 25th, 2024
 PROJECT OVERVIEW
 Project: Personal Portfolio Website
 
+![Task 1 Image 1](https://github.com/user-attachments/assets/c16ec530-c85b-42e4-9bc3-30a5885b283e)
+
+
+
 OBJECTIVE
 
 This project involved creating a personal portfolio website that serves as a digital showcase for my projects, skills, and professional experience. The primary objective was to develop a clean and responsive design that effectively communicates my capabilities to potential employers and collaborators.
