@@ -12,8 +12,7 @@ PROJECT OVERVIEW
 Project: Personal Portfolio Website
 
 ![Task 1 Image 1](https://github.com/user-attachments/assets/c16ec530-c85b-42e4-9bc3-30a5885b283e)
-
-![WhatsApp Image 2024-10-24 at 10 12 22 AM](https://github.com/user-attachments/assets/49f7a6bf-2938-4dad-ab94-f0cabfe4a3b9)
+![WhatsApp Image 2024-10-24 at 10 12 06 AM](https://github.com/user-attachments/assets/8ef9af49-b212-4bf1-a2f4-9038f216966e)
 
 OBJECTIVE
 
