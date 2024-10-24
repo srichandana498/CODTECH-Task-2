@@ -31,6 +31,7 @@ TECHNOLOGIES USED
 HTML: Utilized for laying out the structure and content of the website.
 CSS: Employed for styling, animations, and implementing responsive design principles using Grid and Flexbox.
 JavaScript: Integrated for interactive elements, smooth transitions, and enhancing the overall user experience.
+
 KEY INSIGHTS
 Enhanced User Experience: The use of responsive design allowed the site to adapt flawlessly across various devices, improving accessibility and usability.
 Engaging Visuals and Interactions: Subtle animations and hover effects made the browsing experience smoother and more engaging, helping to retain user attention.
