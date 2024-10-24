@@ -1,0 +1,543 @@
+/* This is the CSS code */ 
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #fcb69f;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+#hero {
+    background: #ff9a8b;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.profile {
+    position: relative;
+}
+
+.social-icons {
+    position: absolute;
+    top: -30px;
+    right: 20px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #34495e;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #fcb69f;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile h1, .profile p {
+    color: #fff;
+}
+
+button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4757;
+}
+
+.content-box {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    max-width: 1000px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #2c3e50;
+}
+
+.experience-list, .skill-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.experience-item, .skill-item {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.skill-item img, .content-box img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+-----
+body {
+    font-family: 'Open Sans', sans-serif; /* Professional, clean font */
+    background-color: #f5f5f5; /* Light subtle background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.content-box {
+    background-color: #ffffff; /* White background for each box */
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 10px; /* Rounded corners for elegance */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+    max-width: 1000px; /* Limit the width for a clean, readable design */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Darker, more professional color for headings */
+}
+
+p, li {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: #7f8c8d; /* Subtle grey for body text */
+}
+
+ul {
+    list-style-type: none; /* Remove bullets for a cleaner list */
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #ff6f61; /* Subtle color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for emphasis */
+}
+
+button {
+    background-color: #2c3e50; /* Darker button color for contrast */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #34495e; /* Slightly darker hover effect */
+}
+
+@media (max-width: 768px) {
+    .content-box {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p, li {
+        font-size: 1.1em;
+    }
+}
+
+#profile {
+    background-color: #fff; /* Light background */
+    padding: 50px 0;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.profile-text {
+    flex: 1;
+    max-width: 50%;
+}
+
+.profile-text h1 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-text p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.profile-text button {
+    background: #ff6f61; /* Button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.profile-text button:hover {
+    background: #ff4757; /* Darker button color on hover */
+}
+
+.profile-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image img {
+    width: 400px; /* Increased size */
+    height: 500px; /* Increased size to make it more rectangular */
+    border-radius: 30px; /* Change from circular to a rounded rectangle */
+    border: 4px solid #fcb69f;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-text, .profile-image {
+        max-width: 100%;
+    }
+
+    .profile-text h1 {
+        font-size: 2.5em;
+    }
+
+    .profile-text p {
+        font-size: 1em;
+    }
+
+    .profile-image img {
+        width: 300px; /* Smaller image on mobile */
+        height: 400px;
+    }
+}
+
+#profile {
+    background-color: #fff; /* Light background */
+    padding: 50px 0;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.profile-text {
+    flex: 1;
+    max-width: 50%;
+}
+
+.profile-text h1 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-text p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.profile-text button {
+    background: #ff6f61; /* Button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.profile-text button:hover {
+    background: #ff4757; /* Darker button color on hover */
+}
+
+.profile-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 4px solid #fcb69f;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-text, .profile-image {
+        max-width: 100%;
+    }
+
+    .profile-text h1 {
+        font-size: 2.5em;
+    }
+
+    .profile-text p {
+        font-size: 1em;
+    }
+
+    .profile-image img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+#profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* This ensures the section takes up the full viewport height */
+    background-color: #f8d7d4; /* Light background for contrast */
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #fcb69f;
+    object-fit: cover;
+    margin-bottom: 20px; /* Space between image and text */
+}
+
+.profile h1, .profile p {
+    text-align: center;
+    color: #ff6f61; /* Match button color */
+}
+
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Cartoonish font */
+    background: linear-gradient(to right, #ffecd2, #fcb69f); /* Colorful gradient background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #fcb69f; /* Light orange */
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White text for better contrast */
+    font-weight: 700;
+}
+
+#hero {
+    background: #ff9a8b; /* Soft red-pink */
+    padding: 60px 0;
+    text-align: center;
+}
+
+#hero .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #fcb69f; /* Match header color */
+    object-fit: cover;
+}
+
+.profile h1 {
+    font-size: 2.5em;
+    color: #fff; /* White for text pop */
+}
+
+.profile p {
+    color: #ff6f61; /* Vibrant pink */
+}
+
+.profile button {
+    background: #ff6f61; /* Pink button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.profile button:hover {
+    background: #ff4757; /* Slightly darker pink on hover */
+}
+
+.profile .stats {
+    margin-top: 30px;
+}
+
+.profile .stats p {
+    font-size: 1em;
+    color: #333;
+    font-weight: bold;
+}
+
+#services {
+    background: #f8d7d4; /* Light pastel pink */
+    padding: 60px 0;
+}
+
+#services .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 2.2em;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background: #fff; /* White for contrast */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    flex: 1 1 30%;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.service-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.service-item h3 {
+    font-size: 1.2em;
+    color: #ff6f61; /* Match button color */
+}
+
+.service-item p {
+    color: #666;
+}
